@@ -48,12 +48,13 @@ section {
 }
 
 .container .top .logo {
+  width: 40%;
   display: block;
   position: fixed;    
 }
   /*For top left icon*/
 
-.container .top .topleft {
+.container .top .logo .topleft {
     top: 8px;
     left: 16px;
     width: 180px;
@@ -61,7 +62,7 @@ section {
     border: 3px;
   }
 /* For top right icon*/
-.container .top .topright {
+.container .top .logo .topright {
     top: 8px;
     right: 16px;
     width: 180px;
@@ -69,8 +70,15 @@ section {
     border: 3px;
 }
 .container .top .quote {
-  
+  float: right;
+  margin: 20px;
+  width: 60%;
+  padding: 30px;
+}
 
+.container .top .quote h1 {
+  float: left;
+  text-align: center;
 }
 
 .fa-github::before {
@@ -82,7 +90,6 @@ section {
   padding: 20px;
   float: left;
 }
-
 
 .container .right-menu {
   width: 50%;
@@ -134,12 +141,13 @@ section {
 .fl-rt {
   float: right;
 }
+
 /* The popup chat - hidden by default */
 .chat-popup {
   display: none;
   position: fixed;
   bottom: 0;
-  right: 15px;
+  right: 0;
   width: 500px;
   height: 600px;
   z-index: 1;
@@ -169,8 +177,9 @@ section {
   margin-bottom: 5px;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-image: url('images/chatBackground.jpg');
-  /*display: flex;
+  background: white;
+  /*background-image: url('images/chatBackground.jpg');
+  display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   margin-bottom: 10px;  */
@@ -216,7 +225,7 @@ section {
   padding: 5px;
 }
 #rec {
-  width: 90px;
+  width: 80px;
   height: 40px;
   border-radius: 15px;
   background-color: #e2fb16;
