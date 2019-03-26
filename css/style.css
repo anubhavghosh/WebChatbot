@@ -10,6 +10,7 @@
 
 html {
   height: 100%;
+  width: 100%;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +18,8 @@ body {
   padding: 0;
   margin: 0;
   background-size: 100%;
+ /* background-image: url('images/AIWallpaper.png');  */
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -32,59 +35,80 @@ h1, h2, h3 {
 }
 section {
   margin: 1.5em auto;
-  width: 400px;
 }
 
-#quote {
-  height: 300px;
-  width: 500px;
-  text-shadow: 1px 1px #1C2833;
-  font-family: "Times New Roman";
-  color: red;
-  font-size: 35px;
+.container {
+  width: 100%;
+  height: 100%;
 }
 
+.container .top {
+  width: 100%;
+  height: 400px;
+}
+
+.container .top .logo {
+  display: block;
+  position: fixed;    
+}
   /*For top left icon*/
-  .topleft {
-    position: absolute;
+
+.container .top .topleft {
     top: 8px;
     left: 16px;
-    font-size: 20px;
     width: 180px;
     height: 80px;
+    border: 3px;
   }
-.topright {
-    position: absolute;
+/* For top right icon*/
+.container .top .topright {
     top: 8px;
-    right: 5px;
-    font-size: 20px;
+    right: 16px;
     width: 180px;
     height: 80px;
-  text-align: right;
+    border: 3px;
 }
+.container .top .quote {
+  
+
+}
+
 .fa-github::before {
     content: "\f09b";
 }
+
+.container .left-menu {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
+
+.container .right-menu {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
 /* Button used to open the chat form - fixed at the bottom of the page */
   .open-button {
   display: block;
-  position: fixed;
-  bottom: 14px;
-  right: 20px;
+  position: relative;
   -webkit-appearance: button;
   -moz-appearance: button;  
-  border-radius: 40px;
+  border-radius: 50px;
   background-color: #ee0606;
   border: none;
   color: #FFFFFF;
-  text-align: left;
   font-size: 18px;
-  padding: 20px;
-  width: 300px;
+  padding: 15px;
+  float: left;
+  width: 50%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
 }
+
 .open-button span {
   cursor: pointer;
   display: inline-block;
@@ -99,41 +123,6 @@ section {
   right: -20px;
   transition: 0.5s;
 }
-
- .open-button1 {
-  display: block;
-  position: fixed;
-  bottom: 50px;
-  left : 20px;
-  -webkit-appearance: button;
-  -moz-appearance: button;  
-  border-radius: 40px;
-  background-color: #ee0606;
-  border: none;
-  color: #FFFFFF;
-  text-align: left;
-  font-size: 18px;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-.open-button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.open-button1 span: after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
 .button:hover span {
   padding-right: 30px;
 }
@@ -142,13 +131,16 @@ section {
   right: 0;
 }
 
+.fl-rt {
+  float: right;
+}
 /* The popup chat - hidden by default */
 .chat-popup {
   display: none;
   position: fixed;
   bottom: 0;
-  right: 0;
-  width: 400px;
+  right: 15px;
+  width: 500px;
   height: 600px;
   z-index: 1;
   box-shadow: 0 0 10px 5px #2f2f2f;
@@ -197,7 +189,6 @@ section {
   float: right;
   align-items: flex-start;
   margin-bottom: 10px;
-  order: -1;
   padding: 15px;
   color: #FFF;
   background: #383838; /* #B561F5;  */
@@ -225,7 +216,7 @@ section {
   padding: 5px;
 }
 #rec {
-  width: 70px;
+  width: 90px;
   height: 40px;
   border-radius: 15px;
   background-color: #e2fb16;
