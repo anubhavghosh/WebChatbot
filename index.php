@@ -21,6 +21,12 @@
         .open-button {
           width:100%;
         }
+        .quote {
+          width: 100%;
+        }
+        .chat-popup {
+          width: 100%;
+        }
       }
     </style>
 
