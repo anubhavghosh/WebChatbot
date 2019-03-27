@@ -13,6 +13,7 @@ html {
   width: 100%;
 }
 body {
+  position: fixed;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: 0;
@@ -40,6 +41,7 @@ section {
 .container {
   width: 100%;
   height: 100%;
+  padding: 5px;
 }
 
 .container .top {
@@ -116,6 +118,11 @@ section {
   margin: 5px;
 }
 
+.open-button:hover {
+  background-color: #58D68D;
+}
+
+
 .open-button span {
   cursor: pointer;
   display: inline-block;
@@ -123,14 +130,14 @@ section {
   transition: 0.5s;
 }
 .open-button span: after {
-  content: '\00bb';
+  content: '\00bb'; 
   position: absolute;
-  opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
 }
 .button:hover span {
+  background-color: #2ECC71;
   padding-right: 30px;
 }
 .button:hover span:after {
@@ -148,7 +155,7 @@ section {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 500px;
+  width: 100%;
   height: 600px;
   z-index: 1;
   box-shadow: 0 0 10px 5px #2f2f2f;
@@ -156,7 +163,7 @@ section {
 /* Set a style for the submit/send button */
 .form-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   height: 600px;
   padding: 10px 0 10px 0;
   background: #d52e2e;
@@ -195,37 +202,37 @@ section {
 
 .bot  {
   width: 80%;
-  float: right;
+  float: left;
   align-items: flex-start;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 20px;
   color: #FFF;
   background: #383838; /* #B561F5;  */
-  border-radius: 10px 10px 0 15px; 
+  border-radius: 15px 15px 20px 0;
 }
 
 .user {
   width: 80%;
-  float: left;
+  float: right;
   align-items: flex-start;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 20px;
   color: #FFF;
   background: #878787;  /* #DDC3EE;  */
-  border-radius: 10px 10px 15px 0;
+  border-radius: 15px 15px 0 20px;
  
 }
 
 /*Inpur area*/
 .form-container .input {
-  width: 80%;
+  width: 85%;
   height: 40px;
   border-radius: 5px;
   margin: 1px;
   padding: 5px;
 }
 #rec {
-  width: 15%;
+  width: 10%;
   height: 40px;
   border-radius: 15px;
   background-color: #e2fb16;
