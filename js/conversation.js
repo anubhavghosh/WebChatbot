@@ -1,5 +1,5 @@
 var accessToken = "fb91d8987c274d568c656e7f4c71e000";
-var baseUrl = "https://api.dialogflow.com/v1/";
+    var baseUrl = "https://api.dialogflow.com/v1/";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
         if (event.which == 13)
@@ -10,19 +10,52 @@ var baseUrl = "https://api.dialogflow.com/v1/";
           this.value = '';
         }
       });
+      
+      $("#btn01").click(function(event) 
+      {
+        setResponse("This BoT is for Button 01"); 
+      });
+      $("#btn02").click(function(event) 
+      {
+        setResponse("This BoT is for Button 02"); 
+      });
+      $("#btn03").click(function(event) 
+      {
+        setResponse("This BoT is for Button 03"); 
+      });
+      $("#btn04").click(function(event) 
+      {
+        setResponse("This BoT is for Button 04"); 
+      });
+      $("#btn05").click(function(event) 
+      {
+        setResponse("This BoT is for Button 05"); 
+      });
+      $("#btn06").click(function(event) 
+      {
+        setResponse("This BoT is for Button 06"); 
+      });
+      $("#btn07").click(function(event) 
+      {
+        setResponse("This BoT is for Button 07"); 
+      });
+      $("#btn08").click(function(event) 
+      {
+        setResponse("This BoT is for Button 08"); 
+      });
+      $("#btn09").click(function(event) 
+      {
+        setResponse("This BoT is for Button 09"); 
+      });
+      $("#btn10").click(function(event) 
+      {
+        setResponse("This BoT is for Button 10"); 
+      });
+
       $("#rec").click(function(event) 
       {
         switchRecognition();
         console.log("++SwitchRecognition() fired");  
-      });
-      
-      $("#BUT1").click(function(event) 
-      {
-        setResponse("This BoT is for Button #1"); 
-      });
-      $("#BUT2").click(function(event) 
-      {
-        setResponse("This BoT is for Button #2"); 
       });  
     });
     var recognition;
@@ -114,6 +147,5 @@ var baseUrl = "https://api.dialogflow.com/v1/";
             //conversation.push("AI: " + val + '\r\n<br><br>');
      // $("#response").text(conversation.join(""));
     }
-
    // var conversation = [];
     
