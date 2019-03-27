@@ -1,5 +1,6 @@
 var accessToken = "fb91d8987c274d568c656e7f4c71e000";
-    var baseUrl = "https://api.dialogflow.com/v1/";
+var baseUrl = "https://api.dialogflow.com/v1/";
+var startMessage = "Hey Buddy";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
         if (event.which == 13)
@@ -114,7 +115,7 @@ var accessToken = "fb91d8987c274d568c656e7f4c71e000";
 function setStaticResponse() 
 {
     console.log("Test Successful");        
-    $('.response').append('<span class="bot">' + '<b>BOT:FIRED</b> 'TEST REPLY '</span>\r\n');
+    $('.response').append('<span class="bot">' + '<b>BOT:</b> '+ startMessage + '</span>\r\n');
             
 }
    // var conversation = [];
