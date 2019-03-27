@@ -52,7 +52,7 @@
         <button class="open-button" onclick="openForm()">Something <b>New5</b></button>
       </div>
       <div class="right-menu">
-        <button class="open-button fl-rt" onclick="openForm()">Have any query? <b>Ask AI Bot.</b></button>
+        <button id="BUT1" class="open-button fl-rt" onclick="openForm()">Have any query? <b>Ask AI Bot.</b></button>
         <button class="open-button fl-rt" onclick="openForm()">Something <b>New6</b></button>
         <button class="open-button fl-rt" onclick="openForm()">Something <b>New7</b></button>
         <button class="open-button fl-rt" onclick="openForm()">Something <b>New8</b></button>
