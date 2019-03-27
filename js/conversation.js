@@ -1,6 +1,5 @@
 var accessToken = "fb91d8987c274d568c656e7f4c71e000";
 var baseUrl = "https://api.dialogflow.com/v1/";
-var startMessage = "Hey Buddy";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
         if (event.which == 13)
@@ -19,10 +18,12 @@ var startMessage = "Hey Buddy";
       
       $("#BUT1").click(function(event) 
       {
-        console.log("Button detected");  
-        setResponse("Looks Cool");
-        console.log("++TEST REPLY");  
+        setResponse("This BoT is for Button #1"); 
       });
+      $("#BUT2").click(function(event) 
+      {
+        setResponse("This BoT is for Button #2"); 
+      });  
     });
     var recognition;
     function startRecognition() {
