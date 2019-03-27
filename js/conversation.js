@@ -19,6 +19,7 @@ var startMessage = "Hey Buddy";
       
       $("#BUT1").click(function(event) 
       {
+        console.log("Button detected");  
         setResponse("Looks Cool");
         console.log("++TEST REPLY");  
       });
