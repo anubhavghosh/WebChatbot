@@ -15,6 +15,12 @@ var accessToken = "fb91d8987c274d568c656e7f4c71e000";
         switchRecognition();
         console.log("++SwitchRecognition() fired");  
       });
+      
+      $("#BUT1").click(function(event) 
+      {
+        setStaticResponse();
+        console.log("++TEST REPLY");  
+      });
     });
     var recognition;
     function startRecognition() {
@@ -105,7 +111,7 @@ var accessToken = "fb91d8987c274d568c656e7f4c71e000";
             //conversation.push("AI: " + val + '\r\n<br><br>');
      // $("#response").text(conversation.join(""));
     }
-function setStaticResponse(val) 
+function setStaticResponse() 
 {
             $('.response').append('<span class="bot">' + '<b>BOT:</b> 'TEST REPLY '</span>\r\n');
 }
