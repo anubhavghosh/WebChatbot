@@ -19,7 +19,7 @@ var startMessage = "Hey Buddy";
       
       $("#BUT1").click(function(event) 
       {
-        setStaticResponse();
+        setResponse("Looks Cool");
         console.log("++TEST REPLY");  
       });
     });
@@ -112,11 +112,6 @@ var startMessage = "Hey Buddy";
             //conversation.push("AI: " + val + '\r\n<br><br>');
      // $("#response").text(conversation.join(""));
     }
-function setStaticResponse() 
-{
-    console.log("Test Successful");        
-    $('.response').append('<span class="bot">' + '<b>BOT:</b> '+ startMessage + '</span>\r\n');
-            
-}
+
    // var conversation = [];
     
