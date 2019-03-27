@@ -17,7 +17,7 @@
     <script type="text/javascript" src="js/conversation.js"></script>
 
     <style type="text/css">
-      @media screen and (max-width:800px) {
+      @media screen and (max-width:600px) {
         .open-button {
           width:100%;
         }
@@ -27,6 +27,8 @@
         .chat-popup {
           width: 100%;
           height: 100%;
+          bottom: 0;
+          padding: 20px 0 20px 0;
         }
       }
     </style>
@@ -45,18 +47,18 @@
     </div>
     <div style="overflow: auto;">
       <div class="left-menu">
-        <button class="open-button" onclick="openForm()">Something <b>New1</b></button>
-        <button class="open-button" onclick="openForm()">Something <b>New2</b></button>  
-        <button class="open-button" onclick="openForm()">Something <b>New3</b></button>
-        <button class="open-button" onclick="openForm()">Something <b>New4</b></button>
-        <button class="open-button" onclick="openForm()">Something <b>New5</b></button>
+        <button id="btn01" class="open-button" onclick="openForm()">ABOUT SNU <b>BOT</b></button>
+        <button id="btn02" class="open-button" onclick="openForm()">ADMISSION <b>BOT</b></button>  
+        <button id="btn03" class="open-button" onclick="openForm()">APPOINTMENT <b>BOT</b></button>
+        <button id="btn04" class="open-button" onclick="openForm()">COURSES <b>BOT</b></button>
+        <button id="btn05" class="open-button" onclick="openForm()">EMERGENCY <b>BOT</b></button>
       </div>
       <div class="right-menu">
-        <button id="BUT1" class="open-button fl-rt" onclick="openForm()">Have any query? <b>Ask AI Bot.</b></button>
-        <button class="open-button fl-rt" onclick="openForm()">Something <b>New6</b></button>
-        <button class="open-button fl-rt" onclick="openForm()">Something <b>New7</b></button>
-        <button class="open-button fl-rt" onclick="openForm()">Something <b>New8</b></button>
-        <button class="open-button fl-rt" onclick="openForm()">Something <b>New9</b></button>
+        <button id="btn06" class="open-button fl-rt" onclick="openForm()">SAFETY & SECURITY <b>BOT</b></button>
+        <button id="btn07" class="open-button fl-rt" onclick="openForm()">AFFILIATIONS <b>BOT</b></button>
+        <button id="btn08" class="open-button fl-rt" onclick="openForm()">PLACEMENT <b>BOT</b></button>
+        <button id="btn09" class="open-button fl-rt" onclick="openForm()">SCHOLARSHIP <b>BOT</b></button>
+        <button id="btn10" class="open-button fl-rt" onclick="openForm()">INDUSTRY COLLABORATION <b>BOT</b></button>
       </div>
     </div> 
   
@@ -65,10 +67,10 @@
       <div class="form-container">
         <h1>AI CHATBOT</h1>
         <div id="response" class="response"></div>
-        <input id="input" class="input" placeholder="Type message.." type="text">
+        <input id="input" class="input" placeholder="Type message.." type="text" autofocus>
         <button id="rec"><b class="fa fa-microphone">Voice</b></button>
         
-        <button type="button" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
+        <button type="button" id="closeButton" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
       </div>
     </div>
   </div>
@@ -79,6 +81,7 @@ function openForm() {
 }
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
+  document.getElementById('response').innerHTML = ' ';
 }
 </script>
 </body>
