@@ -43,7 +43,7 @@
       
       
       <div class="quote">
-        <marquee behaviour = 'scroll' direction = 'left'><s>ALEXA</s>? <s>SIRI</s>? <b>Meet NSHM's own AI assistant</b></marquee>
+        <marquee behaviour = 'scroll' direction = 'left'><s>ALEXA</s>? <s>SIRI</s>? <b>Meet NSHM'S own AI assistant</b></marquee>
       </div>
       
      
@@ -54,18 +54,18 @@
 
     <div style="overflow: auto;">
       <div class="left-menu">
-        <button id="btn01" class="open-button" onclick="openForm()">Departments | Schools <b>BOT</b></button>
-        <button id="btn02" class="open-button" onclick="openForm()">ADMISSION <b>BOT</b></button>  
+        <button id="btn01" class="open-button" onclick="openForm()">ADMISSION <b>BOT</b></button>
+        <button id="btn02" class="open-button" onclick="openForm()">AFFILIATION <b>BOT</b></button>  
         <button id="btn03" class="open-button" onclick="openForm()">CORPORATE RELATION <b>BOT</b></button>
         <button id="btn04" class="open-button" onclick="openForm()">RANKING <b>BOT</b></button>
-        <button id="btn05" class="open-button" onclick="openForm()">EMERGENCY <b>BOT</b></button>
+        <button id="btn05" class="open-button" onclick="openForm()">PLACEMENT <b>BOT</b></button>
       </div>
       <div class="right-menu">
-        <button id="btn06" class="open-button fl-rt" onclick="openForm()">SAFETY & SECURITY <b>BOT</b></button>
-        <button id="btn07" class="open-button fl-rt" onclick="openForm()">AFFILIATIONS <b>BOT</b></button>
-        <button id="btn08" class="open-button fl-rt" onclick="openForm()">PLACEMENT <b>BOT</b></button>
-        <button id="btn09" class="open-button fl-rt" onclick="openForm()">SCHOLARSHIP <b>BOT</b></button>
-        <button id="btn10" class="open-button fl-rt" onclick="openForm()">INDUSTRY COLLABORATION <b>BOT</b></button>
+        <button id="btn06" class="open-button fl-rt" onclick="openForm()">DEPARTMENT <b>BOT</b></button>
+        <button id="btn07" class="open-button fl-rt" onclick="openForm()">COURSES <b>BOT</b></button>
+        <button id="btn08" class="open-button fl-rt" onclick="openForm()">APPOINTMENT <b>BOT</b></button>
+        <button id="btn09" class="open-button fl-rt" onclick="openForm()">EMERGENCY <b>BOT</b></button>
+        <button id="btn10" class="open-button fl-rt" onclick="openForm()">CONTACT US <b>BOT</b></button>
       </div>
     </div> 
   
