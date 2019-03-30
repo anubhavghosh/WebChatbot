@@ -21,11 +21,11 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn03").click(function(event) 
       {
-        setResponse("I see you're looking for fees. Go ahead type in a message like 'Tell me the fees' or 'I want to know the fees structure' you can also mention the course name in the phrase."); 
+        setResponse("I'm here to give you answers related to Corporate Relations. Go ahead Ask me."); 
       });
       $("#btn04").click(function(event) 
       {
-        setResponse("Hello! Are you seeking information related to departments and courses? Go ahead, type in your message! I'm here to help you."); 
+        setResponse("Hello! Are you seeking information related to Rankings? Go ahead, type in your message! I'm here to help you."); 
       });
       $("#btn05").click(function(event) 
       {
