@@ -13,7 +13,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       
       $("#btn01").click(function(event) 
       {
-        setResponse("Hi! I am the here to answer your queries related to NSHM, it's history and establishment. Go ahead, type in your message."); 
+        setResponse("Hi! I am here to answer your queries related to NSHM, it's history and establishment. Go ahead, type in your message."); 
       });
       $("#btn02").click(function(event) 
       {
