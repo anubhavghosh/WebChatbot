@@ -56,8 +56,8 @@
       <div class="left-menu">
         <button id="btn01" class="open-button" onclick="openForm()">ABOUT NSHM <b>BOT</b></button>
         <button id="btn02" class="open-button" onclick="openForm()">ADMISSION <b>BOT</b></button>  
-        <button id="btn03" class="open-button" onclick="openForm()">FEES <b>BOT</b></button>
-        <button id="btn04" class="open-button" onclick="openForm()">COURSES <b>BOT</b></button>
+        <button id="btn03" class="open-button" onclick="openForm()">CORPORATE RELATION <b>BOT</b></button>
+        <button id="btn04" class="open-button" onclick="openForm()">RANKING <b>BOT</b></button>
         <button id="btn05" class="open-button" onclick="openForm()">EMERGENCY <b>BOT</b></button>
       </div>
       <div class="right-menu">
