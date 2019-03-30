@@ -43,7 +43,7 @@
       
       
       <div class="quote">
-        <marquee behaviour = 'scroll' direction = 'left'><s>ALEXA</s>? <s>SIRI</s>? <b>Meet SNU'S own AI assistant</b></marquee>
+        <marquee behaviour = 'scroll' direction = 'left'><s>ALEXA</s>? <s>SIRI</s>? <b>Meet NSHM'S own AI assistant</b></marquee>
       </div>
       
      
