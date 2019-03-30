@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-size: 100%;
+ /* background-image: url('images/AIWallpaper.png');  */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  margin: 2em 0;
+  text-align: center;
+}
+h1, h2, h3 {
+  margin: 0;
+  font-family: bookman;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+section {
+  margin: 1.5em auto;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.container .top {
+  width: 100%;
+  height: 300px;
+}
+
+.container .top .logo {
+  width: 20%;
+  display: block;
+  position: fixed;    
+}
+
+  /*For top left logo*/
+.container .top .topleft {
+    top: 8px;
+    left: 15px;
+    width: 180px;
+    height: 80px;
+    border: 1px;
+  }
+/* For the marquee quote in the center*/
+.container .top .quote {
+  width: 40%;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+  linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+  linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  ;
+  color: white;
+  border: 1px solid #ff8000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* For top right logo*/
+.container .top .topright {
+
+  top: 8px;
+  right: 15px;
+  width: 120px;
+  height: 120px;
+  border: 1px;
+}
+
+
+.container .top .quote h1 {
+  float: left;
+  text-align: center;
+}
+
+.fa-github::before {
+    content: "\f09b";
+}
+
+.container .left-menu {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
+.container .right-menu {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+  .open-button {
+  display: block;
+  position: relative;
+  -webkit-appearance: button;
+  -moz-appearance: button;  
+  border-radius: 10px;
+  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #ffaa49 100%),
+  linear-gradient(-45deg, #ea9d46 0%,  #d67d19 0.3%, #d37810 112%,  transparent 11% ),
+  linear-gradient(-90deg, #f98a0c 100%, #663e11 65%, transparent 20% )
+  ;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.open-button:hover {
+  background-color: #58D68D;
+}
+
+
+.open-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.open-button span: after {
+  content: '\00bb'; 
+  position: absolute;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  background-color: #2ECC71;
+  padding-right: 30px;
+}
+.button:hover span:after {
+  opacity: 2;
+  right: 0;
+}
+
+.fl-rt {
+  float: right;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 600px;
+  border: 2px;
+  z-index: 1;
+  box-shadow: 0 0 10px 5px #2f2f2f;
+}
+/* Set a style for the submit/send button */
+.form-container {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  padding: 10px 0 10px 0;
+  background: #d52e2e;
+ 
+/*  border-radius: 15px 15px 0 0; */
+
+}
+
+.form-container h1 {
+  height: 40px;
+  color: #FFF;
+  margin: 5px;
+}
+.form-container .response {
+  width: 100%;
+  height: 450px;
+  padding: 5px;
+  margin-bottom: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: white;
+  /*background-image: url('images/chatBackground.jpg');
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin-bottom: 10px;  */
+}
+.form-container .response::-webkit-scrollbar {
+  width: 10px;
+}
+
+.form-container .response::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0,0,0,.1);
+}
+
+.bot  {
+  width: 80%;
+  float: left;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #FFF;
+  background: #383838; /* #B561F5;  */
+  border-radius: 15px 15px 20px 0;
+}
+
+.user {
+  width: 80%;
+  float: right;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #FFF;
+  background: #878787;  /* #DDC3EE;  */
+  border-radius: 15px 15px 0 20px;
+ 
+}
+
+/*Inpur area*/
+.form-container .input {
+  width: 85%;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 2px;
+  padding: 5px;
+}
+#rec {
+  width: 10%;
+  height: 40px;
+  border-radius: 0;
+  background-color: #e2fb16;
+
+}
+.form-container button .fa {
+  margin: 1px;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+}
+
+.form-container button .fa:hover {
+  transform: scale(.90);
+}
+
+.form-container button .fa:active {
+  filter: brightness(.8);
+}
+
+
+.form-container  .btn {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  cursor: pointer;
+  border: 1px solid #ff0040;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  background-color: #fdfed7;
+  color: black;
+  opacity: 1;
+  
+}
+
+/*CSS for chatbot */
+{box-sizing: border-box;}
