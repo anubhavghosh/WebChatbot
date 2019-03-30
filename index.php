@@ -34,7 +34,7 @@
     </style>
 
 </head>
-<body onload="responsiveVoice.speak("I am the AI assistant. You can ask me your questions.","Hindi Female");" >
+<body onload="responsiveVoice.speak("I am the AI assistant. You can ask me your questions.","Hindi Female")" >
 <section>
   <div class="container">
     <div class="top">
