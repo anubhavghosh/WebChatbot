@@ -13,11 +13,11 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       
       $("#btn01").click(function(event) 
       {
-        setResponse("I can give you information about the departments & schools of NSHM. Go ahead, type in your message."); 
+        setResponse("I can give you information related to admission in NSHM. Go ahead, type in your message."); 
       });
       $("#btn02").click(function(event) 
       {
-        setResponse("Do you have a query related to the admission procedure? I can tell you about the entrance tests, fees, departments and scholarships. Go ahead, type in your question!"); 
+        setResponse("Are you looking for affiliations? Go ahead, type in your question!"); 
       });
       $("#btn03").click(function(event) 
       {
@@ -29,27 +29,27 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn05").click(function(event) 
       {
-        setResponse("Is there an emergency?  I can tell you the contact details of nearest Fire Brigade, Hospital and Police Station. Please tell me How may I help you?"); 
+        setResponse("Seeking information about placements? Please tell me How may I help you?"); 
       });
       $("#btn06").click(function(event) 
       {
-        setResponse("Are you concerned with the safety & security of this University? Tell me how can I assist you?"); 
+        setResponse("Looking for departments? Tell me how can I assist you?"); 
       });
       $("#btn07").click(function(event) 
       {
-        setResponse("Want to know about your numerous affiliations like UGC & AICTE? Go ahead, ask me your question related to the various Government Recognitions we have received!"); 
+        setResponse("I see you're looking for courses in NSHM. Go ahead, ask me your question!"); 
       });
       $("#btn08").click(function(event) 
       {
-        setResponse("Jaw Dropping! Yes that's how the placements of Techno India Group are. Want to know more? Ask me a question about companies, salary and placement statistics."); 
+        setResponse("Do you want an appointment? Tell me what kind of appointmentare you looking for?"); 
       });
       $("#btn09").click(function(event) 
       {
-        setResponse("Curious about scholarships? I can help. Please ask me a question related to the scholarships."); 
+        setResponse("Is there any emergency situation there? Hurry up. Tell me what's going on."); 
       });
       $("#btn10").click(function(event) 
       {
-        setResponse("Our campus has separate Training & Placement Cell (TPC) well supported by the Industry Institute Partnership Cell (IIPC). Some of the recruiters are TCS, Microsoft, Cognizant, Accenture, IBM, Wipro, Infosys, BSE, Cognizant Technology Solution, Thoughtworks, CISCO, and Mu Sigma. SNU’s Centre of Excellence will soon have collaborations with world renowned companies like Bosch, Google, ABB Robotics, etc. and entrepreneurship cells to mentor students for developing skills that would further help in linking them to venture capitalists and angel investors. If you still have any query related to Industry Collaboration and Partnerships, please type in your message."); 
+        setResponse("Whom would you like to contact?"); 
       });
 
       $("#rec").click(function(event) 
