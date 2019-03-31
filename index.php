@@ -52,8 +52,8 @@
     
     </div>
     <div class="mid-section">
-      <button class=" admission-form-button" onclick="displayIframe()"><span class="">Admission Form</span></button>
-      <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">Notice Board</span></button>
+      <button class=" admission-form-button" onclick="displayIframe()"><span class="">ADMISSION FORM</span></button>
+      <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">NOTICE BOARD</span></button>
     </div>
 
     <div style="overflow: auto;">
@@ -76,7 +76,7 @@
    <!--This is the division for application form which is initially hidden untill onclick="displayForm()" place it above the chat-popup class-->
     <div id="frame" class="chat-popup">
           <h1>Fill this application form for admission in NSHM</h1>
-          <iframe src="https://www.nshm.com/admissions/admission-sessions/" height=87% width=100%></iframe>
+          <iframe src="https://admission.nopaperforms.com/nshm-knowledge-campus/kolkata" height=87% width=100%></iframe>
           <button type="button" id="closeButton" class="btn cancel" onclick="closeFrame()"><b>Close</b></button>
     </div>
     <!-- Registration form -->
