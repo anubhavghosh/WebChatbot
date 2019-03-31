@@ -114,10 +114,7 @@ section {
   border-radius: 0px;
   font-size: 25px;
   padding: 5px;
-  background: 
-  linear-gradient(45deg,  transparent 0%, transparent 57%, #ff0000 100%),
-  linear-gradient(-45deg, #004957 0%,  #660000 0.3%, #cc0000 112%,  transparent 11% ),
-  linear-gradient(-90deg, #ff8080 100%, #ffcccc 65%, transparent 20% );
+  background-color: red;
   color: white;
   }
 
@@ -126,10 +123,7 @@ section {
   border-radius: 0px;
   font-size: 25px;
   padding: 5px;
-  background:
-  linear-gradient(45deg,  transparent 0%, transparent 57%, #ff0000 100%),
-  linear-gradient(-45deg, #004957 0%,  #660000 0.3%, #cc0000 112%,  transparent 11% ),
-  linear-gradient(-90deg, #ff8080 100%, #ffe6e6 65%, transparent 20% );
+  background-color: red;
   color: white;
 }
 
