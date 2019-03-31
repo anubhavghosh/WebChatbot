@@ -49,7 +49,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn10").click(function(event) 
       {
-        setResponse("Whom would you like to contact?"); 
+        setResponse("KOLKATA KNOWLEDGE CAMPUS 124 B L Saha Road, Kolkata 700 053 Phone/Fax: +91 33 2403 2300/01 DURGAPUR KNOWLEDGE CAMPUS Arrah, Shibtala Via Muchipara, Durgapur 713 212 Phone/Fax: +91 343 253 3813-15");      
       });
 
       $("#rec").click(function(event) 
