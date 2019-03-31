@@ -52,8 +52,8 @@
     
     </div>
     <div class="mid-section">
-      <button class=" admission-form-button" onclick="displayIframe()"><span class="">Admission</span></button>
-      <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">Registration</span></button>
+      <button class=" admission-form-button" onclick="displayIframe()"><span class="">Admission Form</span></button>
+      <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">Notice Board</span></button>
     </div>
 
     <div style="overflow: auto;">
@@ -61,13 +61,13 @@
         <button id="btn01" class="open-button" onclick="openForm()">ADMISSION <b>BOT</b></button>
         <button id="btn02" class="open-button" onclick="openForm()">AFFILIATION <b>BOT</b></button>  
         <button id="btn03" class="open-button" onclick="openForm()">CORPORATE RELATION <b>BOT</b></button>
-        <button id="btn04" class="open-button" onclick="openForm()">RANKING <b>BOT</b></button>
+    <!--    <button id="btn04" class="open-button" onclick="openForm()">RANKING <b>BOT</b></button> -->
         <button id="btn05" class="open-button" onclick="openForm()">PLACEMENT <b>BOT</b></button>
       </div>
       <div class="right-menu">
         <button id="btn06" class="open-button fl-rt" onclick="openForm()">DEPARTMENT <b>BOT</b></button>
         <button id="btn07" class="open-button fl-rt" onclick="openForm()">COURSES <b>BOT</b></button>
-        <button id="btn08" class="open-button fl-rt" onclick="openForm()">APPOINTMENT <b>BOT</b></button>
+  <!--      <button id="btn08" class="open-button fl-rt" onclick="openForm()">APPOINTMENT <b>BOT</b></button> -->
         <button id="btn09" class="open-button fl-rt" onclick="openForm()">EMERGENCY <b>BOT</b></button>
         <button id="btn10" class="open-button fl-rt" onclick="openForm()">CONTACT US <b>BOT</b></button>
       </div>
@@ -76,13 +76,13 @@
    <!--This is the division for application form which is initially hidden untill onclick="displayForm()" place it above the chat-popup class-->
     <div id="frame" class="chat-popup">
           <h1>Fill this application form for admission in NSHM</h1>
-          <iframe src="http://www.nshm.com/admissions/admission-sessions/" height=87% width=100%></iframe>
+          <iframe src="https://www.nshm.com/admissions/admission-sessions/" height=87% width=100%></iframe>
           <button type="button" id="closeButton" class="btn cancel" onclick="closeFrame()"><b>Close</b></button>
     </div>
     <!-- Registration form -->
     <div id="registration-form" class="chat-popup">
       <h1>Fill this registration form</h1>
-      <iframe src="https://www.nshm.com/admissions/enquiry/" height=87% width=100%></iframe>
+      <iframe src="https://www.nshm.com/students/noticeboard/" height=87% width=100%></iframe>
       <button type="button" id="closeButton" class="btn cancel" onclick="closeRegForm()"><b>Close</b></button>
     </div>
 
