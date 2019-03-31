@@ -45,7 +45,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn09").click(function(event) 
       {
-        setResponse("Is there any emergency situation there? Hurry up. Tell me what's going on."); 
+        setResponse("Is there an Emergency? You can ask me the number of nearest Hospital, Police Station and Fire Brigade."); 
       });
       $("#btn10").click(function(event) 
       {
