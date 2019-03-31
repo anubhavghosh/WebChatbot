@@ -51,6 +51,10 @@
       
     
     </div>
+    <div class="mid-section">
+      <button class=" admission-form-button" onclick="displayIframe()"><span class="">Admission</span></button>
+      <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">Registration</span></button>
+    </div>
 
     <div style="overflow: auto;">
       <div class="left-menu">
@@ -69,6 +73,20 @@
       </div>
     </div> 
   
+   <!--This is the division for application form which is initially hidden untill onclick="displayForm()" place it above the chat-popup class-->
+    <div id="frame" class="chat-popup">
+          <h1>Fill this application form for admission in NSHM</h1>
+          <iframe src="http://www.nshm.com/admissions/admission-sessions/" height=87% width=100%></iframe>
+          <button type="button" id="closeButton" class="btn cancel" onclick="closeFrame()"><b>Close</b></button>
+    </div>
+    <!-- Registration form -->
+    <div id="registration-form" class="chat-popup">
+      <h1>Fill this registration form</h1>
+      <iframe src="registration-form.php" height=87% width=100%></iframe>
+      <button type="button" id="closeButton" class="btn cancel" onclick="closeRegForm()"><b>Close</b></button>
+    </div>
+
+    
     <div class="chat-popup" id="myForm">
       
       <div class="form-container">
@@ -91,6 +109,26 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById('response').innerHTML = ' ';
 }
+ // for displaying the form
+  function displayIframe() {
+          document.getElementById("frame").style.display = "block";
+          document.getElementByClassName("open-button").style.display = "block";
+      }
+  //for closing the form
+  function closeFrame() {
+    document.getElementById("frame").style.display = "none";
+    document.getElementByClassName("open-button").style.display = "none";
+  }
+  // for displaying the form
+  function displayRegForm() {
+          document.getElementById("registration-form").style.display = "block";
+          document.getElementByClassName("open-button").style.display = "block";
+      }
+  //for closing the form
+  function closeRegForm() {
+    document.getElementById("registration-form").style.display = "none";
+    document.getElementByClassName("open-button").style.display = "none";
+  }
 </script>
 <script type="text/javascript">
   //THIS FUNCTION REDIRECTS USER UPON INACTIVITY
