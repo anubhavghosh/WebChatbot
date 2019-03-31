@@ -101,6 +101,55 @@ section {
     content: "\f09b";
 }
 
+.mid-section {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  padding: 15px;
+  font-size: 30px;
+  background-color: #F2F4F4;
+}
+
+.admission-form-button {
+  width: 200px;
+  border-radius: 0px;
+  font-size: 30px;
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  }
+
+.registration-form-button {
+  width: 200px;
+  border-radius: 0px;
+  font-size: 30px;
+  padding: 5px;
+  background-color: orange;
+  color: white;
+}
+
+#closeButton {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border: 2px;
+  border-radius: 2px;
+  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #005B6D 100%),
+  linear-gradient(-45deg, #004957 0%,  #A2C6CD 0.3%, #00252C 112%,  transparent 11% ),
+  linear-gradient(-90deg, #005B6D 100%, #003741 65%, transparent 20% );
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#closeButton:hover {
+  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #003741 100%),
+  linear-gradient(-45deg, #005B6D 0%,  #00252C 0.3%, #A2C6CD 112%,  transparent 11% ),
+  linear-gradient(-90deg, #004957 100%, #005B6D 65%, transparent 20% );
+}
 .container .left-menu {
   width: 50%;
   padding: 20px;
@@ -123,8 +172,7 @@ section {
   background: 
   linear-gradient(45deg,  transparent 0%, transparent 57%, #ffaa49 100%),
   linear-gradient(-45deg, #ea9d46 0%,  #d67d19 0.3%, #d37810 112%,  transparent 11% ),
-  linear-gradient(-90deg, #f98a0c 100%, #663e11 65%, transparent 20% )
-  ;
+  linear-gradient(-90deg, #f98a0c 100%, #663e11 65%, transparent 20% );
   border: none;
   color: white;
   font-size: 18px;
