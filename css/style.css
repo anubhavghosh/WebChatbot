@@ -114,7 +114,7 @@ section {
   border-radius: 0px;
   font-size: 25px;
   padding: 5px;
-  background-color: red;
+  background-color: #FF7F50;
   color: white;
   }
 
@@ -123,7 +123,7 @@ section {
   border-radius: 0px;
   font-size: 25px;
   padding: 5px;
-  background-color: red;
+  background-color: #FF7F50;
   color: white;
 }
 
@@ -168,11 +168,7 @@ section {
   -webkit-appearance: button;
   -moz-appearance: button;  
   border-radius: 10px;
-  background: 
-  linear-gradient(45deg,  transparent 0%, transparent 57%, #ffaa49 100%),
-  linear-gradient(-45deg, #ea9d46 0%,  #d67d19 0.3%, #d37810 112%,  transparent 11% ),
-  linear-gradient(-90deg, #f98a0c 100%, #663e11 65%, transparent 20% );
-  border: none;
+  background-color: red;
   color: white;
   font-size: 18px;
   padding: 15px;
