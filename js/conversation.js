@@ -65,13 +65,13 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
     });
 // Contact Details : KOLKATA KNOWLEDGE CAMPUS 124 B L Saha Road, Kolkata 700 053 Phone/Fax: +91 33 2403 2300/01 DURGAPUR KNOWLEDGE CAMPUS Arrah, Shibtala Via Muchipara, Durgapur 713 212 Phone/Fax: +91 343 253 3813-15
 
-/*    var isAndroid = /(android)/i.test(navigator.userAgent);
+    var isAndroid = /(android)/i.test(navigator.userAgent);
     console.log("android Testing: "+isAndroid);
       if(!isAndroid)
       {
         location.assign("https://www.gilabs.co.in/");
       }
-*/
+
     var recognition;
     function startRecognition() {
       console.log("++inside startRecognition()");    
