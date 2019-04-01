@@ -65,7 +65,7 @@ section {
   }
 /* For the marquee quote in the center*/
 .container .top .quote {
-  width: 40%;
+  width: 50%;
   height: 100px;
   margin: auto;
   text-align: center;
@@ -86,8 +86,8 @@ section {
 
   top: 8px;
   right: 15px;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border: 1px;
 }
 
@@ -208,6 +208,10 @@ section {
 
 .fl-rt {
   float: right;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 /* The popup chat - hidden by default */
