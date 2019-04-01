@@ -17,7 +17,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn02").click(function(event) 
       {
-        setResponse("Are you looking for affiliations? Go ahead, type in your question!"); 
+        setResponse("Have any query about affiliations? Go ahead, type in your question!"); 
       });
       $("#btn03").click(function(event) 
       {
