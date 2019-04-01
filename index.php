@@ -53,7 +53,6 @@
     </div>
     <div class="mid-section">
       <button class=" admission-form-button" onclick="displayIframe()"><span class="">ADMISSION FORM</span></button>
-      <button id="btn11" class=" how-to-button" onclick="openForm()"><span class="">HOW TO USE BOTS</span></button>
       <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">NOTICE BOARD</span></button>
     </div>
 
@@ -66,11 +65,11 @@
         <button id="btn05" class="open-button" onclick="openForm()">PLACEMENT <b>BOT</b></button>
       </div>
       <div class="right-menu">
-        <button id="btn06" class="open-button fl-rt" onclick="openForm()">DEPARTMENT <b>BOT</b></button>
+        <button id="btn06" class="open-button fl-rt" onclick="openForm()">HOW TO USE THE <b>BOTS</b></button>
         <button id="btn07" class="open-button fl-rt" onclick="openForm()">RANKING <b>BOT</b></button>
   <!--      <button id="btn08" class="open-button fl-rt" onclick="openForm()">APPOINTMENT <b>BOT</b></button> -->
         <button id="btn09" class="open-button fl-rt" onclick="openForm()">EMERGENCY <b>BOT</b></button>
-        <button id="btn10" class="open-button fl-rt" onclick="openForm()">CONTACT US <b>BOT</b></button>
+        <button id="btn10" class="open-button fl-rt" onclick="openForm()">DEPARTMENT US <b>BOT</b></button>
       </div>
     </div> 
   
@@ -143,7 +142,7 @@ function closeForm() {
 <script type="text/javascript">
   //THIS FUNCTION REDIRECTS USER UPON INACTIVITY
       (function() {
-      const idleDurationSecs = 150;    // X number of seconds
+      const idleDurationSecs = 2;    // X number of seconds
       const redirectUrl = 'slideShow.html';  // Redirect idle users to this URL
       let idleTimeout; // variable to hold the timeout, do not modify
       const resetIdleTimeout = function() {
