@@ -53,6 +53,7 @@
     </div>
     <div class="mid-section">
       <button class=" admission-form-button" onclick="displayIframe()"><span class="">ADMISSION FORM</span></button>
+      <button id="btn11" class=" how-to-button" onclick="openForm()"><span class="">HOW TO USE BOTS</span></button>
       <button class=" registration-form-button fl-rt" onclick="displayRegForm()"><span class="">NOTICE BOARD</span></button>
     </div>
 
