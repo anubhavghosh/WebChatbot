@@ -66,7 +66,7 @@
       </div>
       <div class="right-menu">
         <button id="btn06" class="open-button fl-rt" onclick="openForm()">DEPARTMENT <b>BOT</b></button>
-        <button id="btn07" class="open-button fl-rt" onclick="openForm()">COURSES <b>BOT</b></button>
+        <button id="btn07" class="open-button fl-rt" onclick="openForm()">RANKING <b>BOT</b></button>
   <!--      <button id="btn08" class="open-button fl-rt" onclick="openForm()">APPOINTMENT <b>BOT</b></button> -->
         <button id="btn09" class="open-button fl-rt" onclick="openForm()">EMERGENCY <b>BOT</b></button>
         <button id="btn10" class="open-button fl-rt" onclick="openForm()">CONTACT US <b>BOT</b></button>
