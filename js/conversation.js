@@ -33,7 +33,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn06").click(function(event) 
       {
-        setResponse("Looking for departments? Tell me how can I assist you?"); 
+        setResponse("Developed for the NSHM Knowledge Campus Kolkata, this Intelligent Voice and Chat Bot can interpret your questions related to PLACEMENTS, DEPARTMENTS, EMERGENCY NUMBERS, AFFILIATIONS, CORPORATE RELATIONS OF NSHM and RANKINGS. You can ask your questions verbally by pressing the VOICE button (the way you do it with Alexa or Siri) or by Simply typing your message. Sample questions: “Tell me about Fees”, “How was the Placement” and “I want to know NSHM’s Ranking”. All the bots are powered by Machine Learning Human Language Processing and have been trained to understand your questions in any phrase, as long as they are related to given topics of NSHM. However, this is not Alexa or SIri. This is NSHM’s own Artificially Intelligent Voicebot developed by G.I Labs India, started by two ex-Accenture Employees and currently one of the Top 3000 Startups in India."); 
       });
       $("#btn07").click(function(event) 
       {
@@ -49,7 +49,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn10").click(function(event) 
       {
-        setResponse("KOLKATA KNOWLEDGE CAMPUS 124 B L Saha Road, Kolkata 700 053 Phone/Fax: +91 33 2403 2300/01 DURGAPUR KNOWLEDGE CAMPUS Arrah, Shibtala Via Muchipara, Durgapur 713 212 Phone/Fax: +91 343 253 3813-15");      
+        setResponse("Looking for departments? Tell me how can I assist you? ");      
       });
       $("#btn11").click(function(event) 
       {
@@ -63,14 +63,15 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
         console.log("++SwitchRecognition() fired");  
       });  
     });
+// Contact Details : KOLKATA KNOWLEDGE CAMPUS 124 B L Saha Road, Kolkata 700 053 Phone/Fax: +91 33 2403 2300/01 DURGAPUR KNOWLEDGE CAMPUS Arrah, Shibtala Via Muchipara, Durgapur 713 212 Phone/Fax: +91 343 253 3813-15
 
-    var isAndroid = /(android)/i.test(navigator.userAgent);
+/*    var isAndroid = /(android)/i.test(navigator.userAgent);
     console.log("android Testing: "+isAndroid);
       if(!isAndroid)
       {
         location.assign("https://www.gilabs.co.in/");
       }
-
+*/
     var recognition;
     function startRecognition() {
       console.log("++inside startRecognition()");    
