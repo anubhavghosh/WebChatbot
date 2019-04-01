@@ -116,26 +116,8 @@ section {
   padding: 5px;
   background-color: #FF7F50;
   color: white;
-  }
-
-.how-to-button {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  
-  right: 50%;
-  text-align: center;
-  -webkit-appearance: button;
-  -moz-appearance: button;  
-  border-radius: 10px;
-  background-color: red;
-  color: white;
-  font-size: 18px;
-  padding: 15px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: auto;
 }
+
 
 .registration-form-button {
   width: 300px;
