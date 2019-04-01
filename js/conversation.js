@@ -37,7 +37,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });
       $("#btn07").click(function(event) 
       {
-        setResponse("I see you're looking for courses in NSHM. Go ahead, ask me your question!"); 
+        setResponse("To know about Rankings you can ask me a question like 'What is the ranking in outlook?' or 'Can you tell me the ranking in India Today.' "); 
       });
       $("#btn08").click(function(event) 
       {
