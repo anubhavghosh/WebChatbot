@@ -13,7 +13,7 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       
       $("#btn01").click(function(event) 
       {
-        setResponse("I can give you information related to admission in NSHM. Go ahead, type in your message."); 
+        setResponse("I can answer your queries related to FEES and ELIGIBILITY CRITERIA. But Hold On! I am still being trained for this section and I will be able to share information from next week. Meanwhile, you can fill up the admission form available in home screen."); 
       });
       $("#btn02").click(function(event) 
       {
