@@ -101,6 +101,8 @@
   </div>
 </section>
 <script>
+
+//This will open the main form
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("input").focus() ;
@@ -108,8 +110,13 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById('response').innerHTML = ' ';
+  if(responsiveVoice.isPlaying()) 
+  {
+    responsiveVoice.cancel();
+  }
 }
- // for displaying the form
+
+ // for displaying the iframe
   function displayIframe() {
           document.getElementById("frame").style.display = "block";
           document.getElementByClassName("open-button").style.display = "block";
@@ -119,16 +126,18 @@ function closeForm() {
     document.getElementById("frame").style.display = "none";
     document.getElementByClassName("open-button").style.display = "none";
   }
-  // for displaying the form
+  // for displaying the registration form in iframe
   function displayRegForm() {
           document.getElementById("registration-form").style.display = "block";
           document.getElementByClassName("open-button").style.display = "block";
       }
+
   //for closing the form
   function closeRegForm() {
     document.getElementById("registration-form").style.display = "none";
     document.getElementByClassName("open-button").style.display = "none";
   }
+
 </script>
 <script type="text/javascript">
   //THIS FUNCTION REDIRECTS USER UPON INACTIVITY
