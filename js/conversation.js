@@ -64,13 +64,13 @@ var accessToken = "ccedf284597a430cbba9eb16c33a34d9";
       });  
     });
 
-/*    var isAndroid = /(android)/i.test(navigator.userAgent);
+    var isAndroid = /(android)/i.test(navigator.userAgent);
     console.log("android Testing: "+isAndroid);
       if(!isAndroid)
       {
         location.assign("https://www.gilabs.co.in/");
       }
-*/
+
     var recognition;
     function startRecognition() {
       console.log("++inside startRecognition()");    
